@@ -1,0 +1,86 @@
+/* app css stylesheet */
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Times New Roman", Georgia, Serif;
+
+  margin: 0;
+
+  text-align: center;
+}
+
+.header {
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+}
+
+h3 {
+  margin: 15px;
+}
+
+.content {
+  margin: auto;
+  padding: 15px 0;
+}
+
+.content .stack {
+  width: 100%;
+}
+
+.cards div:nth-child(1) {
+  height: 300px;
+}
+
+.cards div:nth-child(2) {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cards img {
+  height: 100%;
+  width: auto;
+  padding: 5px;
+}
+
+.drag-yes {
+  opacity: 0.8;
+  background-image: url("../img/yes.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.drag-no {
+  opacity: 0.8;
+  background-image: url("../img/no.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+
+@media only screen and (max-width: 760px) {
+  .header {
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .content {
+    width: 100%;
+  }
+}

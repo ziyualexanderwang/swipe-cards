@@ -1,0 +1,32 @@
+[
+    {
+        "id": "card1", 
+        "name": "card1",
+        "imageUrl": "assets/img/cards/card1.jpg"
+    }, 
+    {
+        "id": "card2", 
+        "name": "card2",
+        "imageUrl": "assets/img/cards/card2.jpg"
+    }, 
+    {
+        "id": "card3", 
+        "name": "card3",
+        "imageUrl": "assets/img/cards/card3.jpg"
+    }, 
+    {
+        "id": "card4", 
+        "name": "card4",
+        "imageUrl": "assets/img/cards/card4.jpg"
+    },
+    {
+        "id": "card5", 
+        "name": "card5",
+        "imageUrl": "assets/img/cards/card5.jpg"
+    }, 
+    {
+        "id": "card6", 
+        "name": "card6",
+        "imageUrl": "assets/img/cards/card6.jpg"
+    }
+]

@@ -1,0 +1,24 @@
+
+<h3>Cards Stack</h3>
+
+<div class="stack" ng-if="vm.cards.length">
+
+  <div class="cards" draggable>
+    <div>
+      <img ng-src="{{vm.cards[0].imageUrl}}" alt="{{vm.cards[0].name}}">
+    </div>
+    <div></div>
+  </div>
+
+</div>
+
+<div class="stack" ng-if="!vm.cards.length">
+
+  <div class="cards"">
+    <div>
+      Done!
+    </div>
+  </div>
+
+</div>
+
